@@ -54,6 +54,15 @@ a {
 
 }
 
+
+a:hover {
+    color: hotpink;
+}
+
+a:active{
+    color: green;
+}
+
 nav {
     font-family: "Roboto", Arial, Verdana;
     font-weight: 900;
@@ -94,7 +103,16 @@ h1 a,
 }
 
 .top-nav a {
+    color: #4F6BDB;
     text-transform: uppercase;
+}
+
+.top-nav a:hover {
+    color: hotpink;
+}
+
+.top-nav a:active {
+    color: green;
 }
 
 .container {
@@ -164,11 +182,20 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     padding: 20px;
     height: 80px;
     background-color: #ffffff;
     color: #272727;
+}
+
+footer h2 a {
+    margin-left: 30px;
+    color: #4F6BDB;
+}
+
+footer h2 a:active {
+    color: green;
 }
 
 footer h2 {
@@ -180,8 +207,14 @@ footer h2 {
 }
 
 .top a {
-    color: #272727;
+    color: #4F6BDB;
     font-weight: 700;
+}
+.top a:hover {
+    color: hotpink;
+}
+.top a:active {
+    color: green;
 }
 
 .full {
@@ -205,6 +238,8 @@ footer h2 {
     .top-nav li:last-child {
         margin-right: 0;
     }
+
+
 
     nav img {
         float: right;
@@ -240,8 +275,9 @@ footer h2 {
         background-color: #ffffff;
     }
 
-    footer h2 {
+    footer h2 a {
         margin-left: 30px;
+        color: #4F6BDB;
     }
 
     .footer-nav {
@@ -253,8 +289,17 @@ footer h2 {
     .full a {
         text-transform: uppercase;
         font-weight: 700;
-        color: #272727;
+        color: #4F6BDB;
     }
+
+.full a:hover {
+    color: hotpink;
+}
+
+    .full a:active {
+        color: green;
+    }
+
 }
 
 
@@ -299,6 +344,8 @@ footer h2 {
         text-align: right;
     }
 
+
+
     nav img {
         margin-top: 0;
         margin-right: 10px;
@@ -327,7 +374,8 @@ footer h2 {
     }
 
     footer,
-    .footer-nav, .footer-nav li {
+    .footer-nav,
+    .footer-nav li {
         background-color: #f7f7ff;
     }
 
