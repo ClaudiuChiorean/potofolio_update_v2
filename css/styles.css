@@ -49,9 +49,7 @@ ul {
 
 a {
     text-decoration: none;
-
     color: white;
-
 }
 
 
@@ -117,10 +115,8 @@ h1 a,
 
 .container {
     max-width: 1100px;
-
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
-
 }
 
 header {
@@ -182,7 +178,6 @@ p {
 
 span {
     font-weight: 700;
-
 }
 
 hr {
@@ -197,7 +192,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 20px;
     height: 80px;
     background-color: #ffffff;
@@ -263,7 +257,7 @@ footer h2 {
 
 
     nav img {
-        float: right;
+        /*  */
         max-width: 40%;
         margin-left: 1em;
         margin-top: 1em;
@@ -338,7 +332,7 @@ footer h2 {
     }
 
     .main-header,
-    .top-nav {
+    .top-nav, .about-me {
         display: flex;
 
 
@@ -364,21 +358,11 @@ footer h2 {
         margin-right: 10px;
         text-align: right;
     }
+    .about-me {
+        flex-direction: row-reverse;
 
-
-
-    nav img {
-        margin-top: 0;
-        margin-right: 10px;
     }
-
-    nav p {
-        width: 62%;
-        margin-top: 30px;
-        margin-left: 10px;
-        margin-top: 0;
-    }
-
+    
     header {
         display: block;
         background-color: #fff;
